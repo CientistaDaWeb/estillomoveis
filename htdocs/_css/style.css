@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background:url(_img/bg_top.gif) top left repeat-x #FFF;
+    font-family: arial, sans-serif;
+    font-size:12px;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#FFF;
+}
+table{
+    width:100%;
+}
+td, th{
+    padding:2px 3px;
+    color:#E87E22;
+}
+th{
+    text-align:right;
+    width:250px;
+}
+h2{
+    margin-bottom:10px;
+    text-align:left;
+    margin-top:18px;
+    color:#FFF;
+    font-size:18px;
+}
+.negrito{
+    font-weight:bold;
+}
+.botao{
+    padding:2px 3px;
+    color:#FFF;
+    background:#E87E22;
+    border:0;
+}
+.tit_produtos{
+    text-align:center;
+    margin-bottom:10px;
+}
+.erro{
+    color:#900;
+    margin:10px 0;
+}
+.sucesso{
+    color:#69970F;
+    margin:10px 0;
+}
+#div_top, #div_bot, #div_content{
+    width:745px;
+    margin:0 auto;
+    overflow:hidden;
+    padding:0 10px;
+    clear:both;
+}
+#div_content{
+    margin:0 auto;
+    margin-top:-10px;
+    padding-bottom:10px;
+}
+#div_top{
+    height:122px;
+}
+.barra_lateral{
+    background:url(_img/bg_left.gif) top left repeat-y;
+}
+.esquerda{
+    float:left;
+    width:212px;
+    text-align:right;
+    padding:17px 10px;
+    color:#FFF;
+}
+.esquerda a{
+    border-right:3px solid #e87f23;
+    padding-right:5px;
+    display:block;
+}
+.direita{
+    float:right;
+    width:488px;
+}
+.inpute{
+    border:1px solid #E87E22;
+    width:120px;
+}
+.gde{
+    width:410px;
+}
+.textarea{
+    height:100px;
+}
+#categorias li{
+    clear:both;
+    padding:5px 0;
+}
+#categorias li a:hover{
+    text-decoration:underline;
+}
+#div_logo{
+    float:left;
+    width:232px;
+    height:92px;
+    padding:10px 0;
+    overflow:hidden;
+}
+#menu_nav{
+    display:none;
+}
+#menu{
+    margin-left:10px;
+}
+#div_footer{
+    background:url(_img/bg_footer.jpg) repeat-x;
+    color:#FFF;
+    text-align:center;
+    padding-top:12px;
+}
+address{
+    margin-bottom:10px;
+    font-style:inherit;
+}
+.produto{
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    display:block;
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+#ween_web_solutions{
+    clear:both;
+    width:700px;
+    margin:10px auto ;
+}
+#tigra{
+    float:left;
+}
+#ween{
+    float:right;
+}
